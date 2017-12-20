@@ -1,0 +1,63 @@
+// Place all the styles related to the Todos controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+  // border: 1px solid red;
+}
+
+
+.todo-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+}
+
+button {
+  width: 50px;
+  height: 30px;
+  padding: 3px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.done-btn {
+  background-color: black;
+
+}
+
+.delete-btn {
+  background-color: red;
+}
+
+.add-todo-btn {
+  background-color: green;
+  height: 50px;
+  width: 150px;
+}
+
+input {
+  border: 2px solid green;
+  border-radius: 10px;
+  width: 220px;
+}
+
+textarea {
+  border: 2px solid green;
+  margin: 10px 0;
+  padding: 10px;
+  height: 100px;
+  width: 200px;
+  border-radius: 10px
+}
+
+button:hover {
+  cursor: pointer;
+}
